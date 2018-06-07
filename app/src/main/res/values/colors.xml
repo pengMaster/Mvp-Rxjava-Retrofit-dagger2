@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--项目颜色-->
+    <color name="actionBar">#0670C8</color>
+    <color name="gray_bg">#F2F2F2</color>
+    <color name="main_list_red_mid">#FF5A40</color>
+    <!--主色调设置-->
+
+    <!--下拉刷新转圈颜色-->
+    <color name="color_bule">#0670C8</color>
+    <color name="color_bule2">#5CA3E5</color>
+    <color name="color_bule3">#3598db</color>
+    <color name="less_red">#5CA3E5</color>
+    <color name="mid_red">#3598db</color>
+
+    <!--白天主题-->
+    <color name="day_backgroup_color">#FFFFFFFF</color>
+    <color name="day_one_text_color">#FF000000</color>
+    <color name="day_two_text_color">#c9000000</color>
+    <color name="day_three_text_color">#8A9599</color>
+    <!--夜间主题-->
+    <color name="night_backgroup_color">#3F3F3F</color>
+    <color name="night_one_text_color">#FFbbbbbb</color>
+    <color name="night_two_text_color">#8A9599</color>
+    <color name="night_there_text_color">#8A9599</color>
+    <!-- app主色调-->
+    <color name="main_color">#42A3D1</color>
+    <color name="main_list_red_less">#8064C2FF</color>
+    <color name="orange">#FA8C20</color>
+    <color name="wheel_divider_line_color">#FF000000</color>
+    <color name="wheel_item_text_color_selected">#FF0288ce</color>
+    <color name="wheel_item_text_color_no_select">#FFbbbbbb</color>
+    <color name="black">#F2000000</color>
+    <color name="red">#de5656</color>
+    <color name="green">#FF00FF00</color>
+    <color name="white_alpha_half">#99FFFFFF</color>
+    <color name="gray">#FFF0F0F0</color>
+    <color name="gray_deep">#c9000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="role_right_gray">#929292</color>
+    <color name="role_yellow_gray">#33CC99</color>
+    <color name="tv_right_gray">#929292</color>
+    <color name="bg_white_gray">#f2f2f2</color>
+    <color name="tv_talk_content">#FFB3B3B3</color>
+    <color name="line_recent_contact">#FFEEEEEE</color>
+    <color name="light_gray">#808080</color>
+    <color name="light_white">#33ffffff</color>
+    <color name="chat_tip_color">#FFcccccc</color>
+    <color name="blue">#5CA3E5</color>
+    <color name="main_blue">#3598db</color>
+    <color name="blue_check">#3493d4</color>
+    <color name="toast_white">#ffffff</color>
+    <color name="toast_stroke_gray">#99d4d4d4</color>
+    <color name="dip_white">#FAFAFA</color>
+
+    <color name="alpha_05_white">#0DFFFFFF</color>
+    <color name="alpha_10_white">#1AFFFFFF</color>
+    <color name="alpha_15_white">#26FFFFFF</color>
+    <color name="alpha_20_white">#33FFFFFF</color>
+    <color name="alpha_25_white">#40FFFFFF</color>
+    <color name="alpha_30_white">#4DFFFFFF</color>
+    <color name="alpha_35_white">#59FFFFFF</color>
+    <color name="alpha_40_white">#66FFFFFF</color>
+    <color name="alpha_45_white">#73FFFFFF</color>
+    <color name="alpha_50_white">#80FFFFFF</color>
+    <color name="alpha_55_white">#8CFFFFFF</color>
+    <color name="alpha_60_white">#99FFFFFF</color>
+    <color name="alpha_65_white">#A6FFFFFF</color>
+    <color name="alpha_70_white">#B3FFFFFF</color>
+    <color name="alpha_75_white">#BFFFFFFF</color>
+    <color name="alpha_80_white">#CCFFFFFF</color>
+    <color name="alpha_85_white">#D9FFFFFF</color>
+    <color name="alpha_90_white">#E6FFFFFF</color>
+    <color name="alpha_95_white">#F2FFFFFF</color>
+
+    <color name="alpha_05_black">#0D000000</color>
+    <color name="alpha_10_black">#1A000000</color>
+    <color name="alpha_15_black">#26000000</color>
+    <color name="alpha_20_black">#33000000</color>
+    <color name="alpha_25_black">#40000000</color>
+    <color name="alpha_30_black">#4D000000</color>
+    <color name="alpha_35_black">#59000000</color>
+    <color name="alpha_40_black">#66000000</color>
+    <color name="alpha_45_black">#73000000</color>
+    <color name="alpha_50_black">#80000000</color>
+    <color name="alpha_55_black">#8C000000</color>
+    <color name="alpha_60_black">#99000000</color>
+    <color name="alpha_65_black">#A6000000</color>
+    <color name="alpha_70_black">#B3000000</color>
+    <color name="alpha_75_black">#BF000000</color>
+    <color name="alpha_80_black">#CC000000</color>
+    <color name="alpha_85_black">#D9000000</color>
+    <color name="alpha_90_black">#E6000000</color>
+    <color name="alpha_95_black">#F2000000</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="menu_item_text_color">#E60200</color>
+    <!-- 统一的字体黑色 -->
+    <color name="textBlack">#373737</color>
+    <color name="textBlackN">#767676</color>
+    <color name="textBlackNN">#C8C8C8</color>
+
+    <!-- -->
+    <color name="opposite_btn">#4488C5</color>
+    <color name="whiteEE">#EEEEEE</color>
+    <color name="blackCC">#CC000000</color>
+    <color name="blackAA">#AA000000</color>
+    <color name="black33">#333333</color>
+    <color name="blackA6E">#AA6E6E6E</color>
+    <color name="black_qian">#525252</color>
+    <color name="gray99">#999999</color>
+    <color name="gray_qian">#E5E5E5</color>
+    <color name="gray_server">#BFBFBF</color>
+    <color name="black_next">#6E6E6E</color>
+
+    <color name="blue_qian">#A4D3EE</color>
+    <color name="black_text">#6E6E6E</color>
+
+    <color name="blue_text">#007AFF</color>
+    <color name="blue_next">#64C2FF</color>
+    <color name="blue80">#8064C2FF</color>
+    <color name="bjddw_content_bg">#F2F2F2</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="table">#BBDFFF</color>
+    <color name="tableLine">#FFFFFF</color><!-- #DEDEDE -->
+    <color name="line_select">#7BBFEA</color>
+
+    <!-- 阴影立体按钮 -->
+    <color name="fbutton_default_color">#3eadeb</color>
+    <color name="fbutton_default_shadow_color">#ff3493c8</color>
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+    <!--listVIew sc-->
+    <color name="head_bg">#663300</color>
+    <color name="touming">#00000000</color>
+
+
+</resources>

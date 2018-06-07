@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+    buildToolsVersion rootProject.ext.android["buildToolsVersion"]
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_7
+        sourceCompatibility JavaVersion.VERSION_1_7
+    }
+
+    defaultConfig {
+        applicationId "vip.retail.heartchart"
+        minSdkVersion rootProject.ext.android["minSdkVersion"]
+        targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+        versionCode rootProject.ext.android["versionCode"]
+        versionName rootProject.ext.android["versionName"]
+        testInstrumentationRunner rootProject.ext.dependencies["androidJUnitRunner"]
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildToolsVersion '27.0.3'
+}
+
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    //使用Rxjava2
+    annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
+    //butterknife 插件,很多人因为没加这个而报错
+    annotationProcessor rootProject.ext.dependencies["dagger2-compiler"]
+    //依赖插件, annotationProcessor 是 AndroidStudio 自带并用来替换 APT
+    compileOnly rootProject.ext.dependencies["javax.annotation"]
+    //dagger2必须依赖jsr250 annotation
+    implementation rootProject.ext.dependencies["retrofit-url-manager"]
+    implementation rootProject.ext.dependencies["paginate"]
+    //适用于RecyclerView 和 AbsListView的分页下拉加载库，可以自定义加载的视图，自定义临界值等。
+    //对话框风格
+    //OkHttp
+    implementation(rootProject.ext.dependencies["cardview-v7"]) {
+        exclude module: 'support-annotations'
+    }
+    implementation files('libs/commons-httpclient-3.1.jar')
+    //底部导航
+    implementation 'me.jessyan:arms:2.2.3'
+    implementation 'com.github.devlight.navigationtabstrip:navigationtabstrip:1.0.4'
+//    implementation 'com.github.hss01248:DialogUtil:1.1.6'
+    implementation 'com.zhy:okhttputils:2.0.0'
+    implementation 'com.roughike:bottom-bar:2.3.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'me.jessyan:progressmanager:1.5.0'
+}
