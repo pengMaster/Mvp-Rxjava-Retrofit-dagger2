@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Loading">
+        <attr name="outer_width" format="dimension" />
+        <attr name="outer_color" format="color" />
+        <attr name="inner_width" format="dimension" />
+        <attr name="inner_color" format="color" />
+        <attr name="inner_rotating_speed" format="integer"></attr>
+        <attr name="mode">
+            <enum name="arc" value="1" />
+            <enum name="circle" value="2" />
+            <enum name="custom" value="3" />
+        </attr>
+        <!-- mode=circle时有效 -->
+        <attr name="inner_circle_speed" format="integer"></attr>
+        <!-- mode=custom时有效 -->
+        <attr name="inner_custom_degree" format="integer"></attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base30dp"
+        android:background="@color/main_color" />
+
+    <com.jess.arms.widget.autolayout.AutoToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:background="#42A3D1">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:id="@+id/title_bar_back_rl"
+            android:layout_width="80px"
+            android:layout_height="match_parent">
+
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <TextView
+            android:id="@+id/title_bar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/title"
+            tools:text="标题" />
+
+        <Button
+            android:id="@+id/btn_query"
+            android:layout_width="@dimen/base55dp"
+            android:layout_height="@dimen/base28dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/base5dp"
+            android:layout_marginTop="@dimen/base5dp"
+            android:background="@drawable/btn_bg_header"
+            android:text="查询"
+            android:textColor="@drawable/header_text_color_select"
+            android:textSize="@dimen/btn_size" />
+
+    </com.jess.arms.widget.autolayout.AutoToolbar>
+</LinearLayout>

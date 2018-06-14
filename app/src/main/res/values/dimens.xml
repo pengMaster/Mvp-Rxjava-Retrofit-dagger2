@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--splash-->
+    <dimen name="splash_loading_size">16dp</dimen>
+    <dimen name="splash_title_size">30dp</dimen>
+
+    <!-- title sp -->
+    <dimen name="title">24sp</dimen>
+
+
+    <!-- btn sp -->
+    <dimen name="btn_size">16sp</dimen>
+    <!-- title sp -->
+    <dimen name="main_title">24sp</dimen>
+    <!-- title' sp -->
+    <dimen name="title_next">20sp</dimen>
+    <!-- content sp 内容字体大小 -->
+    <dimen name="content">16sp</dimen>
+    <!-- content' sp 内容字体大小 -->
+    <dimen name="content_next">13sp</dimen>
+
+    <dimen name="content_title">18sp</dimen>
+    <!--风险查询spanner前面名字大小-->
+    <dimen name="rick_sp_name_size">14sp</dimen>
+    <!--风险查询spanner的高-->
+    <dimen name="editText_height">40dp</dimen>
+
+    <!-- 阴影立体按钮 -->
+    <dimen name="fbutton_default_conner_radius">8dp</dimen>
+    <dimen name="fbutton_default_padding_left">10dp</dimen>
+    <dimen name="fbutton_default_padding_right">10dp</dimen>
+    <dimen name="fbutton_default_padding_top">5dp</dimen>
+    <dimen name="fbutton_default_padding_bottom">5dp</dimen>
+    <dimen name="fbutton_default_shadow_height">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="layout_weight">0dp</dimen>
+</resources>
