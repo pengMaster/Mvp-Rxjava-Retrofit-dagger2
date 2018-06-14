@@ -1,22 +1,6 @@
 <h1 align="center">MVPArms</h1>
 
-<p align="center">
-   <a href="https://bintray.com/jessyancoding/maven/MVPArms/2.3.5/link">
-    <img src="https://img.shields.io/badge/bintray-v2.3.5-brightgreen.svg" alt="Latest Stable Version" />
-  </a>
-  <a href="https://travis-ci.org/JessYanCoding/MVPArms">
-    <img src="https://travis-ci.org/JessYanCoding/MVPArms.svg?branch=master" alt="Build Status" />
-  </a>
-  <a href="https://developer.android.com/about/versions/android-4.0.html">
-    <img src="https://img.shields.io/badge/API-14%2B-blue.svg?style=flat-square" alt="Min Sdk Version" />
-  </a>
-  <a href="http://www.apache.org/licenses/LICENSE-2.0">
-    <img src="http://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square" alt="License" />
-  </a>
-  <a href="https://shang.qq.com/wpa/qunwpa?idkey=1a5dc5e9b2e40a780522f46877ba243eeb64405d42398643d544d3eec6624917">
-    <img src="https://img.shields.io/badge/QQ群-301733278-ff69b4.svg" alt="QQ Group" />
-  </a>
-</p>
+
 
 ## A common Architecture for Android Applications developing based on MVP，integrates many Open Source Projects( like Dagger2,RxJava,Retrofit... ),to make your developing quicker and easier.
 
