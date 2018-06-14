@@ -18,12 +18,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="MVPArms.md">
-    <b>中文说明</b>
-  </a>
-</p> 
-
 ## A common Architecture for Android Applications developing based on MVP，integrates many Open Source Projects( like Dagger2,RxJava,Retrofit... ),to make your developing quicker and easier.
 
 ## Architectural
