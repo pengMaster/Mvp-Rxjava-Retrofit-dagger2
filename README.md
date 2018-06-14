@@ -1,8 +1,5 @@
 <h1 align="center">MVPArms</h1>
 
-<<<<<<< HEAD
-
-=======
 <p align="center">
    <a href="https://bintray.com/jessyancoding/maven/MVPArms/2.3.5/link">
     <img src="https://img.shields.io/badge/bintray-v2.3.5-brightgreen.svg" alt="Latest Stable Version" />
@@ -25,8 +22,7 @@
   <a href="MVPArms.md">
     <b>中文说明</b>
   </a>
-</p> 
->>>>>>> origin/master
+</p>
 
 ## A common Architecture for Android Applications developing based on MVP，integrates many Open Source Projects( like Dagger2,RxJava,Retrofit... ),to make your developing quicker and easier.
 
