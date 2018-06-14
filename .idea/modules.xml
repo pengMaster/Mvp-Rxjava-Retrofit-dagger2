@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Mvp-Rxjava-Retrofit-dagger2-master.iml" filepath="$PROJECT_DIR$/Mvp-Rxjava-Retrofit-dagger2-master.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/DHeartChart.iml" filepath="$PROJECT_DIR$/DHeartChart.iml" />
+>>>>>>> origin/master
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
