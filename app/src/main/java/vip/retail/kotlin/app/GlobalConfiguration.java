@@ -1,22 +1,16 @@
-package vip.retail.heartchart.app;
+package vip.retail.kotlin.app;
 
 import android.app.Application;
 import android.content.Context;
 import android.support.v4.app.FragmentManager;
-import android.util.Log;
 
-import com.alibaba.sdk.android.push.CloudPushService;
-import com.alibaba.sdk.android.push.CommonCallback;
-import com.alibaba.sdk.android.push.noonesdk.PushServiceFactory;
 import com.jess.arms.base.delegate.AppLifecycles;
 import com.jess.arms.di.module.GlobalConfigModule;
 import com.jess.arms.integration.ConfigModule;
 
 import java.util.List;
 
-import vip.retail.heartchart.mvp.model.api.Api;
-
-import static com.jess.arms.utils.PermissionUtil.TAG;
+import vip.retail.kotlin.mvp.model.api.Api;
 
 
 public class GlobalConfiguration implements ConfigModule {
@@ -35,7 +29,6 @@ public class GlobalConfiguration implements ConfigModule {
     @Override
     public void injectAppLifecycle(Context context, List<AppLifecycles> lifecycles) {
         lifecycles.add(new AppLifecyclesImpl());
-
     }
 
     /**
@@ -53,6 +46,4 @@ public class GlobalConfiguration implements ConfigModule {
     public void injectFragmentLifecycle(Context context, List<FragmentManager.FragmentLifecycleCallbacks> lifecycles) {
 
     }
-
-
 }

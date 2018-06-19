@@ -13,18 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package vip.retail.heartchart.app;
+package vip.retail.kotlin.app;
 
 import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 
-//import com.hss01248.dialog.StyledDialog;
-import com.alibaba.sdk.android.push.CloudPushService;
-import com.alibaba.sdk.android.push.CommonCallback;
-import com.alibaba.sdk.android.push.noonesdk.PushServiceFactory;
 import com.jess.arms.base.BaseApplication;
 import com.jess.arms.base.delegate.AppLifecycles;
 import com.jess.arms.integration.AppManager;
@@ -34,7 +29,7 @@ import com.jess.arms.utils.DeviceUtils;
 
 import me.jessyan.rxerrorhandler.core.RxErrorHandler;
 
-import static com.jess.arms.utils.PermissionUtil.TAG;
+//import com.hss01248.dialog.StyledDialog;
 
 /**
  * ================================================
@@ -78,8 +73,6 @@ public class AppLifecyclesImpl implements AppLifecycles {
         phoneHeight = DeviceUtils.getScreenHeight(mAppContext);
         mMainThreadHandler = new Handler();
         mMainThreadId = android.os.Process.myTid();
-        //阿里云推送
-        initCloudChannel(application);
 //        if (BuildConfig.LOG_DEBUG) {//Timber初始化
         //Timber 是一个日志框架容器,外部使用统一的Api,内部可以动态的切换成任何日志框架(打印策略)进行日志打印
         //并且支持添加多个日志框架(打印策略),做到外部调用一次 Api,内部却可以做到同时使用多个策略
@@ -115,23 +108,5 @@ public class AppLifecyclesImpl implements AppLifecycles {
     @Override
     public void onTerminate(Application application) {
 
-    }
-    /**
-     * 初始化云推送通道
-     * @param applicationContext
-     */
-    private void initCloudChannel(Context applicationContext) {
-        PushServiceFactory.init(applicationContext);
-        CloudPushService pushService = PushServiceFactory.getCloudPushService();
-        pushService.register(applicationContext, new CommonCallback() {
-            @Override
-            public void onSuccess(String response) {
-                Log.d(TAG, "init cloudchannel success");
-            }
-            @Override
-            public void onFailed(String errorCode, String errorMessage) {
-                Log.d(TAG, "init cloudchannel failed -- errorcode:" + errorCode + " -- errorMessage:" + errorMessage);
-            }
-        });
     }
 }

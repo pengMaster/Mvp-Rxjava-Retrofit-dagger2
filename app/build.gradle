@@ -9,7 +9,11 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
         sourceCompatibility JavaVersion.VERSION_1_7
     }
-
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
     defaultConfig {
         applicationId "vip.retail.heartchart"
         minSdkVersion rootProject.ext.android["minSdkVersion"]
@@ -25,6 +29,11 @@ android {
         }
     }
     buildToolsVersion '27.0.3'
+//    ndk {
+//        //选择要添加的对应cpu类型的.so库。为了兼容cpu，查看官网SDK的libs多添加几个
+//        abiFilters 'armeabi-v7a'
+//        //abiFilters  'arm64-v8a', 'armeabi', 'armeabi-v7a', 'mips', 'mips64', 'x86', 'x86_64'
+//    }
 }
 
 
@@ -54,4 +63,6 @@ dependencies {
     implementation 'com.roughike:bottom-bar:2.3.1'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation 'me.jessyan:progressmanager:1.5.0'
+    //阿里推送
+    compile 'com.aliyun.ams:alicloud-android-push:3.1.2'
 }

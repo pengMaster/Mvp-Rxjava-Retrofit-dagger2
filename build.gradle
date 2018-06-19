@@ -25,6 +25,9 @@ allprojects {
         jcenter()
         maven { url "https://jitpack.io" }//rxcahche 需要 jitpack 仓库
         maven { url "https://maven.google.com" }//Support-library 需要 Google 仓库
+        //阿里推送
+        maven { url "http://maven.aliyun.com/nexus/content/repositories/releases/" }
+
     }
 }
 
