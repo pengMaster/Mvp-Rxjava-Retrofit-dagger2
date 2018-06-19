@@ -9,11 +9,15 @@ import android.view.View;
 import android.widget.TextView;
 
 
-
 import timber.log.Timber;
 import vip.retail.heartchart.R;
 
 
+/**
+ * BaseActivity所做的事情可在此添加
+ *
+ * @author Wp
+ */
 public class ActLifecycleCallbacksImpl implements Application.ActivityLifecycleCallbacks {
 
     @Override

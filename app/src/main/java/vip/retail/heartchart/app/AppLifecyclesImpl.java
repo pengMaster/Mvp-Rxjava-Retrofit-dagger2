@@ -39,8 +39,7 @@ import static com.jess.arms.utils.PermissionUtil.TAG;
 /**
  * ================================================
  * 展示 {@link AppLifecycles} 的用法
- * <p>
- * Created by JessYan on 04/09/2017 17:12
+ *
  * Contact with <mailto:jess.yan.effort@gmail.com>
  * Follow me on <https://github.com/JessYanCoding>
  * ================================================

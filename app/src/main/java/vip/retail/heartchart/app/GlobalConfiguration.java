@@ -19,6 +19,11 @@ import vip.retail.heartchart.mvp.model.api.Api;
 import static com.jess.arms.utils.PermissionUtil.TAG;
 
 
+/**
+ * application，BaseActivity,BaseFragment 总体配置
+ *
+ * @author Wp
+ */
 public class GlobalConfiguration implements ConfigModule {
 
     /**
@@ -51,7 +56,7 @@ public class GlobalConfiguration implements ConfigModule {
      */
     @Override
     public void injectFragmentLifecycle(Context context, List<FragmentManager.FragmentLifecycleCallbacks> lifecycles) {
-
+        lifecycles.add(new FragLifecycleCallbacksImpl());
     }
 
 
