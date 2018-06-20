@@ -3,6 +3,8 @@
 apply from: "config.gradle" //这里表示引用config.gradle文件
 
 buildscript {
+    ext.kotlin_version = '1.2.50'
+    ext.anko_version = '0.8.2'
     repositories {
         jcenter()
         google()
@@ -17,18 +19,22 @@ buildscript {
 //        classpath 'me.tatarka:gradle-retrolambda:3.6.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlin_version"
     }
 }
 
 allprojects {
     repositories {
         jcenter()
+        //阿里的maven仓国内镜像，如果gradle下载很慢，建议使用该仓库
+        maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+        mavenCentral()
         maven { url "https://jitpack.io" }//rxcahche 需要 jitpack 仓库
         maven { url "https://maven.google.com" }//Support-library 需要 Google 仓库
         //阿里推送
         maven { url "http://maven.aliyun.com/nexus/content/repositories/releases/" }
-
-    }
+           }
 }
 
 task clean(type: Delete) {

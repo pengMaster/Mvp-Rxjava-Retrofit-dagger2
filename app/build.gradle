@@ -1,4 +1,7 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+//快捷的findviewfindid操作，建议加上
+apply plugin: 'kotlin-android-extensions'
 
 android {
 
@@ -6,8 +9,8 @@ android {
     buildToolsVersion rootProject.ext.android["buildToolsVersion"]
 
     compileOptions {
-        targetCompatibility JavaVersion.VERSION_1_7
-        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
     }
     sourceSets {
         main {
@@ -65,4 +68,11 @@ dependencies {
     implementation 'me.jessyan:progressmanager:1.5.0'
     //阿里推送
     compile 'com.aliyun.ams:alicloud-android-push:3.1.2'
+    //anko_version
+    compile "org.jetbrains.anko:anko-common:$anko_version"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+}
+repositories {
+    mavenCentral()
 }

@@ -6,14 +6,7 @@ import android.util.Log;
 import com.alibaba.sdk.android.ams.common.util.StringUtil;
 import com.alibaba.sdk.android.push.MessageReceiver;
 import com.alibaba.sdk.android.push.notification.CPushMessage;
-import com.google.gson.Gson;
-
-import org.simple.eventbus.EventBus;
-
 import java.util.Map;
-
-import vip.retail.kotlin.app.utils.ToastUtils;
-
 
 /**
  * Created by sunny on 2018/4/3.
